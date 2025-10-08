@@ -54,7 +54,7 @@ const Edit = ({ employees, selectedEmployee, setEmployees, setIsEditing }) => {
   return (
     <div className="small-container">
       <form onSubmit={handleUpdate}>
-        <h1>Edit Employee</h1>
+        <h1> Edit Data </h1>
         <label htmlFor="firstName">First Name</label>
         <input
           id="firstName"
